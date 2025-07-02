@@ -5,7 +5,7 @@
 FieldDayDK er et logprogram, som er udviklet specielt til dansk deltagere i EDRs årlige **HF Field Day**. Programmet er skræddersyet til at bruge de gældende, danske regler for logføring og points. Programmet er kun til Windows (.NET 8).
 
 ## Hent seneste version her
-Downloadlink (downloader, når du klikker): [FieldDayDKSetup.msi 0.9.0](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases/download/v1.0.0/FieldDayDKSetup.msi)
+Downloadlink (downloader, når du klikker): [FieldDayDKSetup.msi 1.0.0.0](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases/download/v1.0.0.0/FieldDayDK_1_0_0_0.msi)
 
 Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases)
 
@@ -27,6 +27,15 @@ Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releas
 - **Ét-kliks-generering af ADIF-filer + udfyldt sammentællingsblad** (til fieldday-manager, når testen er slut)
   
 ## Versionshistorik:
+
+### 1.0.0.0:
+- Første officielle version til rigtig brug
+- Debugget i alle detaljer.
+- Hjælpemenu med programnoter (__vigtigt: husk at læse dem!__)
+- Kan nu fortolke WSJT-X-Qso-beskeder fra både primær og sekunder UDP-port
+- Kræver nu som udgangspunkt, at WSJT-X kører i "EU VHF Contest"-mode
+- Kosmetiske forbedringer
+
 ### 0.9.0:
 Stadig en prototype (tidsbegrænset indtil 1. september 2025)
 
