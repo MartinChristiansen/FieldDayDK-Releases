@@ -5,7 +5,7 @@
 FieldDayDK er et logprogram, som er udviklet specielt til dansk deltagere i EDRs årlige **HF Field Day**. Programmet er skræddersyet til at bruge de gældende, danske regler for logføring og points. Programmet er kun til Windows (.NET 8).
 
 ## Hent seneste version her
-Downloadlink (downloader, når du klikker): [FieldDayDKSetup.msi 0.9.0](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases/download/v0.9.0/FieldDayDKSetup.msi)
+Downloadlink (downloader, når du klikker): [FieldDayDKSetup.msi 0.9.0](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases/download/v1.0.0/FieldDayDKSetup.msi)
 
 Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases)
 
