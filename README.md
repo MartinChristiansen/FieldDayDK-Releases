@@ -29,7 +29,7 @@ Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releas
 ## Versionshistorik:
 
 ### 1.0.0.0:
-- Første officielle version til rigtig brug
+- Første officielle version til rigtigt brug
 - Debugget i alle detaljer.
 - Hjælpemenu med programnoter (__vigtigt: husk at læse dem!__)
 - Kan nu fortolke WSJT-X-Qso-beskeder fra både primær og sekunder UDP-port
