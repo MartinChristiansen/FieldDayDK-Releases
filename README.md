@@ -29,7 +29,7 @@ Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releas
 ## Versionshistorik:
 
 ### 1.0.1.0:
-- **Forbedret håndtering af navigering til indtastningsfelt med eksisterende tekst** (vha. TAB eller SPACE): Teksten i feltet bliver nu automatisk markeret, således at den bliver erstattet, hvis man begynder at taste tekst. Førhen blev der tilføjet tekst foran det, der stod i feltet forvejen, hvilket var meget uhensigtsmæssigt. 
+- **Forbedret håndtering af navigering til indtastningsfelt med eksisterende tekst** (vha. TAB eller SPACE): Teksten i feltet bliver nu automatisk markeret, således at den bliver erstattet, hvis man begynder at taste ny tekst. Førhen blev der tilføjet tekst foran det, der stod i feltet forvejen, hvilket var meget uhensigtsmæssigt. 
 - **Tilføjet automatisk tjek for opdateret version ved hver opstart**, med mulighed for straks at downloade den ny version. 
 - **Tilføjet mulighed for at skifte imellem logblade vha. tastatur:** "10" i kaldesignalfeltet skifter f.eks. til 10m-logbladet (uændret mode), og "CW" skifter til CW-logbladet (uændret bånd). Man kan også skifte logblad for bånd og mode på én gang med f.eks. "15DIGI" (skifter til logbladet for  15m digital). NB: Fungerer kun, når radioen ikke styrer det selv.
 - **Forbedret skalering:** Når man gør programvinduet større eller mindre, tilpasser indtastingsområdet sig automatisk således, at alle indtastningsfelterne til stadighed er synlige og brugbare (hele indtastningsområdet bliver forstørret/formindsket sammen med vinduet i stedet for at blive klippet af). På den måde kan man stadig bruge programmet, selv om man gør det meget mindre for at få plads til andre ting på skærmen også.
