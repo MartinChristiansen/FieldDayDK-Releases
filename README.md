@@ -14,6 +14,7 @@ Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releas
 - **Programmet er på dansk** i hele brugerfladen
 - **Superlet at betjene**, og næsten ingen opsætning
 - Holder styr på de **op til 15 krævede, samtidige logblade** (et logblad pr. mode (CW/SSB/DIGI) pr. bånd (80-40-20-15-10)
+- **To forskellige indtastningsmodes** ('Live' og 'Efterregistrering)
 - **Skifter automatisk til det tilsvarende logblad**, når man skifter mode eller bånd på radioen (kræver OmniRig installeret)
 - **Tilføjer automatisk FT8- og FT4-QSO'er**, hvis man kører med WSJT-X på samme maskine
 - **Dubletkontrol** (naturligvis)
@@ -27,6 +28,9 @@ Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releas
 - **Ét-kliks-generering af ADIF-filer + udfyldt sammentællingsblad** (til fieldday-manager, når testen er slut)
   
 ## Versionshistorik:
+
+### 1.0.2.0:
+- **To forskellige indtastningsmodes:** _Live_ og _Efterregistrering_ (_Live_=indstastning imens QSO foregår, _Efterregistrering_=indtastning af alle QSO'er fra papirlog, når testen er slut)
 
 ### 1.0.1.0:
 - **Forbedret håndtering af navigering til indtastningsfelt med eksisterende tekst** (vha. TAB eller SPACE): Teksten i feltet bliver nu automatisk markeret, således at den bliver erstattet, hvis man begynder at taste ny tekst. Førhen blev der tilføjet tekst foran det, der stod i feltet forvejen, hvilket var meget uhensigtsmæssigt. 
