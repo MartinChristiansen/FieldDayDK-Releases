@@ -1,11 +1,11 @@
 # FieldDayDK af OZ1IKU
-![main window](https://raw.githubusercontent.com/MartinChristiansen/FieldDayDK-Releases/master/screenshot.png)
+![main window](screenshot.png)
 
 ## Hvad er det?
 FieldDayDK er et logprogram, som er udviklet specielt til dansk deltagere i EDRs årlige **HF Field Day**. Programmet er skræddersyet til at bruge de gældende, danske regler for logføring og points. Programmet er kun til Windows (.NET 8).
 
-## Hent seneste version her
-Downloadlink (downloader, når du klikker): [FieldDayDKSetup.msi 1.0.3.0](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases/download/v1.0.3.0/FieldDayDK_1_0_3_0.msi)
+## Hent seneste version her (NB: Prototype - holder op med at fungere den 1. september 2026!)
+Downloadlink (downloader, når du klikker): [FieldDayDKSetup.msi 1.0.3.8](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases/download/v.1.0.3.8/FieldDayDK_1_0_3_8.msi)
 
 Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases)
 
@@ -14,9 +14,11 @@ Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releas
 - **Programmet er på dansk** i hele brugerfladen
 - **Superlet at betjene**, og næsten ingen opsætning
 - Holder styr på de **op til 15 krævede, samtidige logblade** (et logblad pr. mode (CW/SSB/DIGI) pr. bånd (80-40-20-15-10)
+- **NYT: Netværksunderstøttelse:** Hvis programmet kører på flere maskiner på samme tid i et netværk, holder alle konstant hinanden opdateret i realtid. Når nye instanser kommer til, synkroniserer de automatisk med de allerede kørende. Alle kan altid følge med på alle bånd og se den øjeblikkelige, totale score på tværs af instanser.
+- **NYT: Frivilig låsnining af individuelle logblade** (så man ikke ved et uheld kan komme til at taste ind på et logblad, som hører til en af de andre af stationerne i lejren)
 - **To forskellige indtastningsmodes** ('Live' og 'Efterregistrering)
 - **Skifter automatisk til det tilsvarende logblad**, når man skifter mode eller bånd på radioen (kræver OmniRig installeret)
-- **Tilføjer automatisk FT8- og FT4-QSO'er**, hvis man kører med WSJT-X på samme maskine
+- **Tilføjer automatisk FT8-, FT4- og FT2-QSO'er**, hvis man kører med WSJT-X på samme maskine
 - **Dubletkontrol** (naturligvis)
 - **Henter automatisk seneste liste med DXCC-lande i baggrunden** (fra internettet). Hvis der ikke er internetforbindelse til rådighed, bruges den senest hentede fil, eller den, som kommer med programmet.
 - **Automatisk, kontinuerlig pointudregning**, både pr.bånd og totalt
@@ -28,6 +30,18 @@ Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releas
 - **Ét-kliks-generering af ADIF-filer + udfyldt sammentællingsblad** (til fieldday-manager, når testen er slut)
   
 ## Versionshistorik:
+
+### 1.0.3.8 (tidsbegrænset prototype - kan **ikke** bruges efter 30. august 2026!)
+- **Program-noter opdateret. HUSK AT LÆSE DEM!** (du finder dem under Hjælp-menuen)
+- **Netværksfunktionalitet tilføjet** (cluster-kommunikation - alle instanser af programmet opdaterer hinanden i realtid på netværket). Understøtter både kablet netværk og WiFi. Kræver ingen konfigurering. Tilføjer selv nødvendige Firewall-regler til firewallen.
+- **Låsning af individuelle logblade**: I hver instans af programmet kan man låse individuelle logblade, så man f.eks. ikke ved et uheld kan komme til at indtaste QSO'er på 20m-logbladet, hvis man sidder i 80m-campingvognen.
+- **Understøttelse af ny FT2-mode** fra WSJT-X
+- **QSO-listen screoller altid til bund** efter hver indtastning (så man altid kan se nyeste QSO)
+- **Forbedret håndtering af OmniRig og "Lad radioen styre"**, alt efter om OmniRig er tilgængelig på computeren eller ej
+- **Input-cursor flyttes nu altid tilbage til kaldesignalfeltet**, når indtastningsfelterne slettes - også når det sker, fordi man kører væk fra frekvensen (kræver OmniRig)
+- **Starter op på samme logblad**, som var fremme, da programmet kørte sidst (hvis man kører uden OmniRig)
+- **Ny "Nulstil alt..."-funktion**, som sletter alle programdata og -indstillinger og genstarter programmet, som om det lige var installeret
+- Kosmetiske forbedringer + diverse småfejl rettet
 
 ### 1.0.3.0:
 - **Sammentællingsblad opdateret** (helt nyt og forbedret indhold)
