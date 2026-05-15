@@ -15,7 +15,7 @@ Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releas
 - **Superlet at betjene**, og næsten ingen opsætning
 - Holder styr på de **op til 15 krævede, samtidige logblade** (et logblad pr. mode (CW/SSB/DIGI) pr. bånd (80-40-20-15-10)
 - **NYT: Netværksunderstøttelse:** Hvis programmet kører på flere maskiner på samme tid i et netværk, holder alle konstant hinanden opdateret i realtid. Når nye instanser kommer til, synkroniserer de automatisk med de allerede kørende. Alle kan altid følge med på alle bånd og se den øjeblikkelige, totale score på tværs af instanser.
-- **NYT: Frivilig låsnining af individuelle logblade** (så man ikke ved et uheld kan komme til at taste ind på et logblad, som hører til en af de andre af stationerne i lejren)
+- **NYT: Frivilig låsnining af individuelle logblade** (så man ikke ved et uheld kan komme til at taste ind på et logblad, som hører til en af de andre stationer i lejren)
 - **To forskellige indtastningsmodes** ('Live' og 'Efterregistrering)
 - **Skifter automatisk til det tilsvarende logblad**, når man skifter mode eller bånd på radioen (kræver OmniRig installeret)
 - **Tilføjer automatisk FT8-, FT4- og FT2-QSO'er**, hvis man kører med WSJT-X på samme maskine
