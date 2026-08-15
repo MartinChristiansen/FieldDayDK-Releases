@@ -4,8 +4,20 @@
 ## Hvad er det?
 FieldDayDK er et logprogram, som er udviklet specielt til dansk deltagere i EDRs årlige **HF Field Day**. Programmet er skræddersyet til at bruge de gældende, danske regler for logføring og points. Programmet er kun til Windows (.NET 8).
 
-## Hent seneste version her (NB: Prototype - holder op med at fungere den 1. september 2026!)
-Downloadlink (downloader, når du klikker): [FieldDayDKSetup.msi 1.0.3.8](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases/download/v1.0.3.8/FieldDayDK_1_0_3_8.msi)
+## Vigtig note vedr. antivirus:
+Din computer kan muligvis advare om, at programmet er usikkert, og også advare om, at det indeholder virus - **men det er falsk alarm!**
+
+Det skyldes, at programmet (endnu) ikke er digitalt signeret, og at det samtidig indeholder kode, som i det skjulte åbner 2 porte 
+i PC'ens firewall og begynder at lytte på dem (og det synes nogle antivirusprogrammer ser for mistænkeligt ud).
+
+Programmet vil muligvis blive digitalt signeret i senere versioner (hvilket får computeren til at stole på det), men det koster 
+en del penge, som jeg ikke er indstillet på at ofre på et gratis hobbyprogram (for nærværende).
+
+Alt er altså i den skønneste orden, og du kan roligt installere programmet, også selv om din computer måtte advare dig imod det. Programmet bruger de 
+to åbnede porte til at tale med andre instanser af programmet på, hvis man skulle have det kørende på flere PC'er samtidig på netværket.
+
+## Hent seneste version her (for Field Day 2026):
+Downloadlink (downloader, når du klikker): [FieldDayDKSetup.msi 1.0.4.0](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases/download/v1.0.4.0/FieldDayDK_1_0_4_0.msi)
 
 Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releases/releases)
 
@@ -30,6 +42,10 @@ Link til [alle releases](https://github.com/MartinChristiansen/FieldDayDK-Releas
 - **Ét-kliks-generering af ADIF-filer + udfyldt sammentællingsblad** (til fieldday-manager, når testen er slut)
   
 ## Versionshistorik:
+
+### 1.0.4.0 (officiel 2026-version)
+- **Mindre fejlrettelser**
+- **Kosmetiske forbedringer**
 
 ### 1.0.3.8 (tidsbegrænset prototype - kan **ikke** bruges efter 30. august 2026!)
 - **Program-noter opdateret. HUSK AT LÆSE DEM!** (du finder dem under Hjælp-menuen)
